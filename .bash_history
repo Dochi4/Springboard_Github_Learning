@@ -219,3 +219,9 @@ git config --global --l
 git config --global--l
 git config --global-l
 git config --global -l
+code
+mkdir TicTacToe
+cd TicTacToe
+touch index.html app.ss app.js
+code .
+ls

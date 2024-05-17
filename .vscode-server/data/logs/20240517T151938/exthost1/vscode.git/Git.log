@@ -171,3 +171,37 @@
 2024-05-17 15:22:06.378 [info] fatal: ref refs/remotes/origin/HEAD is not a symbolic ref
 2024-05-17 15:22:06.378 [info] GitHistoryProvider:resolveHistoryItemGroupBase - Failed to resolve history item group base for 'refs/heads/master'
 2024-05-17 15:22:06.378 [info] GitHistoryProvider:resolveHistoryItemGroupCommonAncestor - Failed to resolve history item group base for 'refs/heads/master'
+2024-05-17 15:22:10.818 [info] > git add -A -- . [4899ms]
+2024-05-17 15:22:10.818 [info] warning: adding embedded git repository: learn_git_again
+hint: You've added another git repository inside your current repository.
+hint: Clones of the outer repository will not contain the contents of
+hint: the embedded repository and will not know how to obtain it.
+hint: If you meant to add a submodule, use:
+hint: 
+hint: 	git submodule add <url> learn_git_again
+hint: 
+hint: If you added this path by mistake, you can remove it from the
+hint: index with:
+hint: 
+hint: 	git rm --cached learn_git_again
+hint: 
+hint: See "git help submodule" for more information.
+2024-05-17 15:22:10.868 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master [1ms]
+2024-05-17 15:22:10.874 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master [1ms]
+2024-05-17 15:22:10.881 [info] > git config --local branch.master.vscode-merge-base [1ms]
+2024-05-17 15:22:10.881 [warning] git config failed: Failed to execute git
+2024-05-17 15:22:10.888 [info] > git reflog refs/heads/master --grep-reflog=branch: Created from *. [2ms]
+2024-05-17 15:22:10.893 [info] > git symbolic-ref --short refs/remotes/origin/HEAD [1ms]
+2024-05-17 15:22:10.893 [info] fatal: ref refs/remotes/origin/HEAD is not a symbolic ref
+2024-05-17 15:22:10.893 [info] GitHistoryProvider:resolveHistoryItemGroupBase - Failed to resolve history item group base for 'refs/heads/master'
+2024-05-17 15:22:10.893 [info] GitHistoryProvider:resolveHistoryItemGroupCommonAncestor - Failed to resolve history item group base for 'refs/heads/master'
+2024-05-17 15:22:11.277 [info] > git show --textconv :.git/COMMIT_EDITMSG [6ms]
+2024-05-17 15:22:11.279 [info] > git ls-files --stage -- /home/mpanaiotti/.git/COMMIT_EDITMSG [2ms]
+2024-05-17 15:22:11.606 [info] > git check-ignore -v -z --stdin [1ms]
+2024-05-17 15:22:12.251 [info] > git ls-tree -l HEAD -- /home/mpanaiotti/.bash_history [6ms]
+2024-05-17 15:22:12.252 [info] > git ls-files --stage -- /home/mpanaiotti/.git/COMMIT_EDITMSG [2ms]
+2024-05-17 15:22:12.268 [info] > git show --textconv HEAD:.bash_history [7ms]
+2024-05-17 15:22:12.268 [info] > git show --textconv :.git/COMMIT_EDITMSG [1ms]
+2024-05-17 15:22:13.278 [info] > git show --textconv :TicTacToe/app.js [10ms]
+2024-05-17 15:22:13.291 [info] > git ls-files --stage -- /home/mpanaiotti/TicTacToe/app.js [17ms]
+2024-05-17 15:22:13.298 [info] > git cat-file -s e69de29bb2d1d6434b8b29ae775ad8c2e48c5391 [2ms]
