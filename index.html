@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Hatchways: Meme, Generator</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1>Meme Generator</h1>
+    <div id="memeForm">
+      <form action="" id="MemeGen">
+        <p>
+          <label for="">Image URL:
+            <input type="text" placeholder="Image URL for your new Meme" 
+            name="memeImg">
+          </label>
+           <!-- This is my input for the image the user wants to make a meme -->
+        </p>
+        <p>
+          <label for="">Text on Top:
+            <input type="text" placeholder="(Optional)Add Text to the top of your Meme" name="memeTopText">
+          </label>
+           <!-- This is my input for the top meme text above -->
+        </p>
+        <p>
+          <label for="">Text on Bottom:
+            <input type="text" placeholder="(Optional)Add Text to the top of your Meme" name="memeBottomText">
+          </label>
+          <!-- This is my input for the bottom meme text above -->
+        </p>
+       
+        <input type="Submit">
+      </form>
+    </div>
+
+    <section id="memePlace">
+    </section>
+    <!-- this section above will hold all my divs of the memes. I choose to make this a section and not a div because all the things inside are connected by a common theme -->
+    <script src="script.js"></script>
+  </body>
+</html>
